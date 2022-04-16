@@ -1,0 +1,88 @@
+.F_bg-footer {
+    /* #6699999f */
+    background-color:     #2D3E50
+    ;
+    padding: 50px 0 30px;
+
+}
+.F_list-inline{
+    display: flex;
+}
+.F_footer-heading {
+    letter-spacing: 2px;
+margin-left: 35%;}
+.F_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.F_footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.F_footer-link a:hover {
+    color: #61E0EA;
+}
+
+.F_contact-info {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.F_footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.F_facebook {
+    background-color: #4e71a8;
+    color: #ffffff;
+}
+
+.F_twitter {
+    background-color: #55acee;
+    color: #ffffff;
+}
+
+.F_google {
+    background-color: #d6492f;
+    color: #ffffff;
+}
+
+.F_apple {
+    background-color: #424041;
+    color: #ffffff;
+}
+
+.F_footer-alt {
+    color: #acacac;
+    text-align: right;
+    margin-right: 10px;
+  margin-top: 45px;
+}
+
+.F_footer-heading {
+    position: relative;
+    padding-bottom: 12px;
+    
+}
+
+.F_footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #61E0EA;
+}
+
